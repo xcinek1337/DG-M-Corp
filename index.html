@@ -22,7 +22,7 @@
                 <span class="hamburger-inner"></span>
             </span>
         </button>
-
+<!--                        nav -->
         <nav class="nav nav-mobile ">
             <a class="nav__link" href="#invest">invest</a>
             <a class="nav__link" href="#plan">plan</a>
@@ -34,7 +34,7 @@
             <a class="nav__link" href="#plan">plan</a>
             <a class="nav__link" href="#contact">contact</a>
         </nav>
-
+<!--                  nav -->
         <div class="header__text">
             <h1 class="company-name">Diamonds, Gold & Money</h1>
             <p>Lorem, Lorem ipsum dolot consectetur. con. Ex?</p>
@@ -85,7 +85,7 @@
             </div>
 
         </section>
-        <!-- 2222222222    INFO      222222222222222222222222222222 -->
+        <!-- 2222222222    INFO  invest    222222222222222222222222222222 -->
         <div class="wrapper">
             <section class="info" id="invest">
 
@@ -126,7 +126,7 @@
                         <p class="info__box-text">Lorem ipsumlorem Lorem ipsum dolor sit amet consectetur. dolor sit
                             amet consectetur adipisicing elit. Blanditiis
                             unde non ad numquam!</p>
-                        <a href="#" class="">read more...</a>
+                        <a href="#" class="info__box-link">read more...</a>
                     </div>
                 </div>
 
@@ -138,11 +138,141 @@
             </section>
         </div>
 
+        <section class="plans" id="plan">
 
+            <div class="wrapper">
+
+                <h2 class="section-title">plan your<span> future</span></h2>
+
+                <div class="plans__box">
+
+                    <img src="/img/icons/briefcase.svg" alt="" class="plans__item plans__item-icon">
+
+                    <div class="plans__item plans__item-name">
+                        <h3>#easymoney</h3>
+                    </div>
+                    <div class="plans__item plans__item-money">
+                        <p><b>Contribution</b></p>
+                        <p>250.000</p>
+                    </div>
+                    <div class="plans__item plans__item-term">
+                        <p><b>Term</b></p>
+                        <p>2 years</p>
+                    </div>
+                    <div class="plans__item plans__item-profit">
+                        <p><b>Profit</b></p>
+                        <p>5% - 10%</p>
+                    </div>
+
+                </div>
+
+                <div class="plans__box">
+
+                    <img src="/img/icons/cast.svg" alt="" class="plans__item plans__item-icon">
+
+                    <div class="plans__item plans__item-name">
+                        <h3>reliableStuff</h3>
+                    </div>
+                    <div class="plans__item plans__item-money">
+                        <p><b>Contribution</b></p>
+                        <p>250.000</p>
+                    </div>
+                    <div class="plans__item plans__item-term">
+                        <p><b>Term</b></p>
+                        <p>5 years</p>
+                    </div>
+                    <div class="plans__item plans__item-profit">
+                        <p><b>Profit</b></p>
+                        <p>25% - 35%</p>
+                    </div>
+
+                </div>
+
+                <div class="plans__box">
+
+                    <img src="/img/icons/film.svg" alt="" class="plans__item plans__item-icon">
+
+                    <div class="plans__item plans__item-name">
+                        <h3>AllIn</h3>
+                    </div>
+                    <div class="plans__item plans__item-money">
+                        <p><b>Contribution</b></p>
+                        <p>15.000.000</p>
+                    </div>
+                    <div class="plans__item plans__item-term">
+                        <p><b>Term</b></p>
+                        <p>10 - 15 years</p>
+                    </div>
+                    <div class="plans__item plans__item-profit">
+                        <p><b>Profit</b></p>
+                        <p>50% - 75%</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="newsletter">
+
+            <div class="wrapper newsletter__wrapper">
+
+                <div class="newsletter__text">
+                    <p>Sing up for newsletter...</p>
+                </div>
+                <div class="newsletter__form">
+                    <input class='newsletter__form-input' type="text">
+                    <button class="newsletter__form-btn">subscribe</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="gallery">
+            <img class="gallery__img" src="/img/1.jpg" alt="bitcoin">
+            <img class="gallery__img" src="/img/2.jpg" alt="diamond">
+            <img class="gallery__img" src="/img/3.jpg" alt="gold">
+            <img class="gallery__img" src="/img/4.jpg" alt="bitcoin">
+            <img class="gallery__img" src="/img/5.jpg" alt="diamond">
+            <img class="gallery__img" src="/img/6.jpg" alt="gold">
+            <img class="gallery__img" src="/img/7.jpg" alt="banknotes">
+            <img class="gallery__img" src="/img/8.jpg" alt="bitcoin">
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <h2 class="section-title">contact <span>us</span></h2>
+
+
+                <form class="contact__form">
+
+                    <div class="contact__form-box">
+                        <label class="contact__form-box--label" for="name">Your name:</label>
+                        <input class="contact__form-box--input" type="text" id="name">
+                    </div>
+
+                    <div class="contact__form-box">
+                        <label class="contact__form-box--label" for="name">Your email:</label>
+                        <input class="contact__form-box--input" type="text" id="email">
+                    </div>
+
+                    <div class="contact__form-box">
+                        <label class="contact__form-box--label" for="name">Message:</label>
+                        <textarea class="contact__form-box--textarea" id="msg" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <button type="submit" class="contact__form-btn">Send</button>
+
+                </form>
+
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
-        <p class="footer__bottom-text"> &copy; <span class="footer__year"> DG&M Corporation</span></p>
+        <p class="footer__bottom-text"> &copy; <span class="footer__year"></span> DG&M Corporation</p>
     </footer>
 
     <script src="js/main.js"></script>
