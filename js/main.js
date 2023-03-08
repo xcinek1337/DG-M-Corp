@@ -13,6 +13,8 @@ const handleNav = () => {
 		link.addEventListener('click', () => {
 			navBtn.classList.remove('is-active')
 			navMobile.classList.remove('nav-mobile--active')
+			document.body.classList.remove('sticky-body')
+
 		})
 	})
 }

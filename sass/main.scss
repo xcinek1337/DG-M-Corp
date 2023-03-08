@@ -269,7 +269,13 @@ h1.company-name {
 		grid-area: box;
 	}
 
+	&__box {
+		display: grid;
+		justify-content: end;
+	}
+
 	&__box-img {
+		margin-top: 2em;
 		width: 100%;
 		object-fit: cover;
 		filter: sepia();
@@ -287,14 +293,12 @@ h1.company-name {
 	}
 
 	&__box-link {
-		display: block;
 		margin-bottom: 2em;
 		font-weight: bold;
 		color: $gold;
-		float: right;
-		text-align: right;
 		text-decoration: none;
 		transition: color 0.3s;
+		justify-self: end;
 
 		&:hover {
 			color: $darkgold;
@@ -304,9 +308,7 @@ h1.company-name {
 		display: none;
 	}
 }
-.info__box-link {
-	justify-self: end;
-}
+
 // plans
 .plans {
 	padding: 6em 2em;

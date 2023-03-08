@@ -256,7 +256,12 @@ h1.company-name {
 .info__boxes {
   grid-area: box;
 }
+.info__box {
+  display: grid;
+  justify-content: end;
+}
 .info__box-img {
+  margin-top: 2em;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -272,24 +277,18 @@ h1.company-name {
   margin-bottom: 0.5em;
 }
 .info__box-link {
-  display: block;
   margin-bottom: 2em;
   font-weight: bold;
   color: #d6c78e;
-  float: right;
-  text-align: right;
   text-decoration: none;
   transition: color 0.3s;
+  justify-self: end;
 }
 .info__box-link:hover {
   color: #9b9165;
 }
 .info__bg-icon {
   display: none;
-}
-
-.info__box-link {
-  justify-self: end;
 }
 
 .plans {
@@ -438,10 +437,6 @@ h1.company-name {
   .info {
     grid-template-areas: "title box" "title box" "title box";
     padding: 5em 2em;
-  }
-  .info__box {
-    display: grid;
-    justify-content: end;
   }
   .info__title {
     padding: 0 1em;
