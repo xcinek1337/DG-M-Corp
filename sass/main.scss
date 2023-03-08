@@ -21,6 +21,9 @@ body {
 	color: $white;
 	background-color: $dark;
 }
+.sticky-body {
+	overflow: hidden;
+}
 
 h1.company-name {
 	margin-bottom: 0.5em;
@@ -126,7 +129,6 @@ h1.company-name {
 	left: 1em;
 	transform: translateY(-50%);
 	z-index: 500;
-	touch-action: none;
 
 	&-inner,
 	&-inner::before,
@@ -135,7 +137,6 @@ h1.company-name {
 		z-index: 500;
 	}
 }
-
 .nav {
 	&-mobile {
 		position: absolute;
@@ -151,7 +152,6 @@ h1.company-name {
 		transform: translateX(-102%);
 		transition: transform 0.3s;
 		z-index: 10;
-		touch-action: none;
 
 		&--active {
 			transform: translateX(0);
@@ -295,8 +295,6 @@ h1.company-name {
 		text-align: right;
 		text-decoration: none;
 		transition: color 0.3s;
-		
-		
 
 		&:hover {
 			color: $darkgold;
@@ -306,7 +304,7 @@ h1.company-name {
 		display: none;
 	}
 }
-.info__box-link{
+.info__box-link {
 	justify-self: end;
 }
 // plans

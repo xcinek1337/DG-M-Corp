@@ -44,6 +44,10 @@ body {
   background-color: #232323;
 }
 
+.sticky-body {
+  overflow: hidden;
+}
+
 h1.company-name {
   margin-bottom: 0.5em;
   font-size: 3rem;
@@ -138,7 +142,6 @@ h1.company-name {
   left: 1em;
   transform: translateY(-50%);
   z-index: 500;
-  touch-action: none;
 }
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   background-color: #fff;
@@ -159,7 +162,6 @@ h1.company-name {
   transform: translateX(-102%);
   transition: transform 0.3s;
   z-index: 10;
-  touch-action: none;
 }
 .nav-mobile--active {
   transform: translateX(0);

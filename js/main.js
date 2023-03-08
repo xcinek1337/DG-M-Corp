@@ -7,6 +7,7 @@ const body = document.querySelector('body')
 const handleNav = () => {
 	navBtn.classList.toggle('is-active')
 	navMobile.classList.toggle('nav-mobile--active')
+	document.body.classList.toggle('sticky-body')
 
 	navLinks.forEach(link => {
 		link.addEventListener('click', () => {
@@ -17,7 +18,6 @@ const handleNav = () => {
 }
 
 navBtn.addEventListener('click', handleNav,)
-
 
 
 const handleCurrentYear = () => {
